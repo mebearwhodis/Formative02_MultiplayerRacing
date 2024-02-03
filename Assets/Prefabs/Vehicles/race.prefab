@@ -954,7 +954,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 0.63408387, g: 0.71832323, b: 0.42729384, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1099,8 +1099,8 @@ GameObject:
   - component: {fileID: 7605284361221048702}
   - component: {fileID: 7447117484715430690}
   - component: {fileID: 2157623323670923817}
-  - component: {fileID: 9072056661086326985}
   - component: {fileID: -750668313869123883}
+  - component: {fileID: 513192286951996180}
   m_Layer: 0
   m_Name: race
   m_TagString: Untagged
@@ -1247,24 +1247,6 @@ MonoBehaviour:
     wheelEffectObj: {fileID: 0}
     smokeParticle: {fileID: 0}
     axel: 1
---- !u!114 &9072056661086326985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8344881502551624404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37304a73dcee7cf4fb9e1c7ede97640d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0
-  _displayNameText: {fileID: 4521792222970683855}
-  _displayName: Missing Name
-  _displayColour: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &-750668313869123883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,3 +1278,21 @@ MonoBehaviour:
   m_DefaultActionMap: Player1
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &513192286951996180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8344881502551624404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37304a73dcee7cf4fb9e1c7ede97640d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  _displayNameText: {fileID: 4521792222970683855}
+  _displayName: Missing Name
+  _displayColour: {r: 0, g: 0, b: 0, a: 1}
