@@ -4,11 +4,7 @@ using System.Collections.Generic;
 
 public class CarController : MonoBehaviour
 {
-    public enum ControlMode
-    {
-        Keyboard,
-        Buttons
-    };
+    private VehiclesInputs _input;
 
     public enum Axel
     {
@@ -21,12 +17,10 @@ public class CarController : MonoBehaviour
     {
         public GameObject wheelModel;
         public WheelCollider wheelCollider;
-        public GameObject wheelEffectObj;
-        public ParticleSystem smokeParticle;
+        //public GameObject wheelEffectObj;
+        //public ParticleSystem smokeParticle;
         public Axel axel;
     }
-
-    public ControlMode control;
 
     public float maxAcceleration = 30.0f;
     public float brakeAcceleration = 50.0f;
@@ -38,9 +32,6 @@ public class CarController : MonoBehaviour
 
     public List<Wheel> wheels;
 
-    float moveInput;
-    float steerInput;
-
     private Rigidbody carRb;
 
 
@@ -48,14 +39,14 @@ public class CarController : MonoBehaviour
     {
         carRb = GetComponent<Rigidbody>();
         carRb.centerOfMass = _centerOfMass;
+        _input = GetComponent<VehiclesInputs>();
 
     }
 
     void Update()
     {
-        GetInputs();
         AnimateWheels();
-        WheelEffects();
+        //WheelEffects();
     }
 
     void LateUpdate()
@@ -65,30 +56,11 @@ public class CarController : MonoBehaviour
         Brake();
     }
 
-    public void MoveInput(float input)
-    {
-        moveInput = input;
-    }
-
-    public void SteerInput(float input)
-    {
-        steerInput = input;
-    }
-
-    void GetInputs()
-    {
-        if(control == ControlMode.Keyboard)
-        {
-            moveInput = Input.GetAxis("Vertical");
-            steerInput = Input.GetAxis("Horizontal");
-        }
-    }
-
     void Move()
     {
         foreach(var wheel in wheels)
         {
-            wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
+            wheel.wheelCollider.motorTorque = _input._accelerationValue * 600 * maxAcceleration * Time.deltaTime;
         }
     }
 
@@ -98,7 +70,7 @@ public class CarController : MonoBehaviour
         {
             if (wheel.axel == Axel.Front)
             {
-                var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
+                var _steerAngle = _input._steerValue * turnSensitivity * maxSteerAngle;
                 wheel.wheelCollider.steerAngle = Mathf.Lerp(wheel.wheelCollider.steerAngle, _steerAngle, 0.6f);
             }
         }
@@ -106,7 +78,7 @@ public class CarController : MonoBehaviour
 
     void Brake()
     {
-        if (Input.GetKey(KeyCode.Space) || moveInput == 0)
+        if (_input._brakeValue >= 0.1f || _input._accelerationValue == 0)
         {
             foreach (var wheel in wheels)
             {
@@ -136,21 +108,37 @@ public class CarController : MonoBehaviour
         }
     }
 
-    void WheelEffects()
+    void UseItem()
     {
-        foreach (var wheel in wheels)
+        if (_input._itemUsed)
         {
-            //var dirtParticleMainSettings = wheel.smokeParticle.main;
-
-            if (Input.GetKey(KeyCode.Space) && wheel.axel == Axel.Rear && wheel.wheelCollider.isGrounded == true && carRb.velocity.magnitude >= 10.0f)
-            {
-                wheel.wheelEffectObj.GetComponentInChildren<TrailRenderer>().emitting = true;
-                wheel.smokeParticle.Emit(1);
-            }
-            else
-            {
-                wheel.wheelEffectObj.GetComponentInChildren<TrailRenderer>().emitting = false;
-            }
+            Debug.Log("Using item");
         }
     }
+    
+    void ResetPosition()
+    {
+        if (_input._positionReset)
+        {
+            Debug.Log("Resetting position");
+        }
+    }
+
+    // void WheelEffects()
+    // {
+    //     foreach (var wheel in wheels)
+    //     {
+    //         //var dirtParticleMainSettings = wheel.smokeParticle.main;
+    //
+    //         if (Input.GetKey(KeyCode.Space) && wheel.axel == Axel.Rear && wheel.wheelCollider.isGrounded == true && carRb.velocity.magnitude >= 10.0f)
+    //         {
+    //             wheel.wheelEffectObj.GetComponentInChildren<TrailRenderer>().emitting = true;
+    //             wheel.smokeParticle.Emit(1);
+    //         }
+    //         else
+    //         {
+    //             wheel.wheelEffectObj.GetComponentInChildren<TrailRenderer>().emitting = false;
+    //         }
+    //     }
+    // }
 }
