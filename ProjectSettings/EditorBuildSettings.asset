@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OnlineLevel.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/ScriptableObjects/Scenes/ScriptableObjects.unity
+    guid: f8d63684f885f3048931c3b5e2b2308e
+  - enabled: 1
+    path: Assets/ScriptableObjects/Scenes/GameTest.unity
+    guid: dd19adfbceecad9489affad6b598fdba
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 159c866278641014d862d51862b25aa9,
       type: 2}

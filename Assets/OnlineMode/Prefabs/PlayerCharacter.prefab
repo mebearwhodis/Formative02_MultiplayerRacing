@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8428639756008085187}
   - component: {fileID: -6232344401796162103}
   - component: {fileID: -4651507456093091962}
+  - component: {fileID: -3672451868434791223}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -105,6 +106,48 @@ MonoBehaviour:
   _displayNameText: {fileID: 230142909422150797}
   _displayName: Missing Name
   _displayColour: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &-3672451868434791223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187550417551698985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d265611aef0b40f4c863ef9d996a895f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  control: 0
+  maxAcceleration: 30
+  brakeAcceleration: 50
+  turnSensitivity: 1
+  maxSteerAngle: 30
+  _centerOfMass: {x: 0, y: 0, z: 0}
+  wheels:
+  - wheelModel: {fileID: 8032205764729568242}
+    wheelCollider: {fileID: 1008514269559635202}
+    wheelEffectObj: {fileID: 0}
+    smokeParticle: {fileID: 0}
+    axel: 0
+  - wheelModel: {fileID: 7021307584094936799}
+    wheelCollider: {fileID: 6319414408449839976}
+    wheelEffectObj: {fileID: 0}
+    smokeParticle: {fileID: 0}
+    axel: 0
+  - wheelModel: {fileID: 1318257643248583194}
+    wheelCollider: {fileID: 5647036838165749667}
+    wheelEffectObj: {fileID: 0}
+    smokeParticle: {fileID: 0}
+    axel: 1
+  - wheelModel: {fileID: 846951948181499685}
+    wheelCollider: {fileID: 5470374135828615811}
+    wheelEffectObj: {fileID: 0}
+    smokeParticle: {fileID: 0}
+    axel: 1
 --- !u!1001 &4463352897687782722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -209,9 +252,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &846951948181499685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3905176814154869351, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &1008514269559635202 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 3463256785503631424, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1318257643248583194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3439175097412388696, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2642717774273208926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1827847922915370780, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &5470374135828615811 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 8510589001494206401, guid: 34e7480e6ee7d7042b6bac12c5984b22,
     type: 3}
   m_PrefabInstance: {fileID: 4463352897687782722}
   m_PrefabAsset: {fileID: 0}
@@ -252,3 +319,27 @@ MonoBehaviour:
   m_DefaultActionMap: Player1
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!146 &5647036838165749667 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 8335966947037289185, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &6319414408449839976 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 7656702366359967274, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7021307584094936799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6665804482428279709, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8032205764729568242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5947323567219211952, guid: 34e7480e6ee7d7042b6bac12c5984b22,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463352897687782722}
+  m_PrefabAsset: {fileID: 0}

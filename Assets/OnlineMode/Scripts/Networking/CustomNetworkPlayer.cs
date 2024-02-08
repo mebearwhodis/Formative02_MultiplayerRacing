@@ -43,7 +43,7 @@ public class CustomNetworkPlayer : NetworkBehaviour
     [Server] //Not needed but a good security
     public void SetDisplayName(string newDisplayName)
     {
-        this._displayName = newDisplayName;
+        _displayName = newDisplayName;
     }
 
     [Server]
