@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -6232344401796162103}
   - component: {fileID: -4651507456093091962}
   - component: {fileID: -3672451868434791223}
+  - component: {fileID: 8880299020994264646}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -148,6 +149,37 @@ MonoBehaviour:
     wheelEffectObj: {fileID: 0}
     smokeParticle: {fileID: 0}
     axel: 1
+--- !u!114 &8880299020994264646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187550417551698985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 67f29addaae702e4cbac0997669667b8,
+    type: 3}
+  m_NotificationBehavior: 1
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Driving
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1001 &4463352897687782722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -234,11 +266,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8344881502551624404, guid: 34e7480e6ee7d7042b6bac12c5984b22,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1934536723788344742}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34e7480e6ee7d7042b6bac12c5984b22, type: 3}
 --- !u!114 &230142909422150797 stripped
 MonoBehaviour:
@@ -282,43 +310,6 @@ WheelCollider:
     type: 3}
   m_PrefabInstance: {fileID: 4463352897687782722}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5638500494788087702 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8344881502551624404, guid: 34e7480e6ee7d7042b6bac12c5984b22,
-    type: 3}
-  m_PrefabInstance: {fileID: 4463352897687782722}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1934536723788344742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5638500494788087702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 295594006836d0e4992571ef550f250a,
-    type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player1
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!146 &5647036838165749667 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 8335966947037289185, guid: 34e7480e6ee7d7042b6bac12c5984b22,

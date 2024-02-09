@@ -186,7 +186,7 @@ namespace Ashsvp
                 brakeLogic(brakeInput);
                 bodyAnimation();
 
-                //AutoBalence
+                //AutoBalance
                 if (rb.centerOfMass != CentreOfMass_ground)
                 {
                     rb.centerOfMass = CentreOfMass_ground;

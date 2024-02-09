@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Lobby.uss?fileID=7433441132597879392&amp;guid=2b1ab02e43465744a89c4fe627321de6&amp;type=3#Lobby" />
+    <ui:VisualElement name="Title" style="flex-grow: 1; height: auto; justify-content: space-around; align-self: auto; margin-top: 2%; margin-right: 5%; margin-bottom: 2%; margin-left: 5%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; -unity-text-align: upper-center; width: auto;">
+        <ui:Label text="Insert Random Game Title" name="TitleText" style="font-size: 72px; -unity-text-align: upper-center; position: relative;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Buttons" class="buttonlist" style="flex-grow: 1; margin-top: 5%; margin-right: 10%; margin-bottom: 5%; margin-left: 10%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: column; align-self: stretch; position: relative; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); justify-content: space-around; width: auto; max-width: none; -unity-text-align: upper-left; -unity-paragraph-spacing: 0; word-spacing: 15px; align-items: stretch;">
+        <ui:VisualElement style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 30%; padding-bottom: 0; padding-left: 30%;">
+            <ui:Button text="Local Multiplayer" name="Local" style="-unity-background-scale-mode: stretch-to-fill;" />
+            <ui:Button text="Online Multiplayer" name="Online" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; align-items: auto; justify-content: flex-end; align-self: center;">
+            <ui:Button text="Exit" name="Exit" style="flex-direction: column; bottom: auto; right: auto; justify-content: flex-start; align-self: auto; align-items: auto; position: relative; width: 150px; overflow: hidden; background-color: rgb(183, 77, 77); -unity-text-align: middle-center; top: auto; left: auto; margin-bottom: 0; white-space: nowrap;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
