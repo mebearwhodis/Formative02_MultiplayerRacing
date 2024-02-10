@@ -909,6 +909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7546807113287405535}
+  - component: {fileID: 2259822239946402130}
   - component: {fileID: 269519813686186487}
   - component: {fileID: -6544809437645679895}
   - component: {fileID: 7546807113287405344}
@@ -920,7 +921,7 @@ GameObject:
   - component: {fileID: 7546807113287405350}
   m_Layer: 0
   m_Name: Ash_Pickup Prefab
-  m_TagString: Untagged
+  m_TagString: Vehicle
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -946,6 +947,24 @@ Transform:
   - {fileID: 7546807112736260501}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2259822239946402130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7546807113287405351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08e6421095e3f243bf6ba8f51ba2d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _itemHeld: 0
+  _isImmune: 0
+  _immunityDuration: 5
+  _pushForce: 10000
+  _shockDuration: 5
+  _boostSpeed: 10
 --- !u!114 &269519813686186487
 MonoBehaviour:
   m_ObjectHideFlags: 0

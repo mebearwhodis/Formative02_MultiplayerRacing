@@ -13,6 +13,8 @@ public class VehiclesInputs : MonoBehaviour
     public bool _itemUsed = false;
     public bool _positionReset = false;
 
+    public bool _isConfused = false;
+
         public void OnAccelerate(InputValue value)
         {
             _accelerationValue = value.Get<float>();
@@ -20,7 +22,7 @@ public class VehiclesInputs : MonoBehaviour
         
         public void OnSteer(InputValue value)
         {
-            _steerValue = value.Get<float>();
+            _steerValue = !_isConfused ? value.Get<float>() : -1f * value.Get<float>();
         }
 
         public void OnBrake(InputValue value)
