@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: 1417145683292037645}
   - component: {fileID: 1417145683292037644}
   - component: {fileID: 1417145683292037635}
+  - component: {fileID: 6673553914343536287}
   m_Layer: 0
   m_Name: Ash_Sports Prefab
   m_TagString: Vehicle
@@ -393,6 +394,8 @@ MonoBehaviour:
   _immunityDuration: 5
   _pushForce: 10000
   _shockDuration: 5
+  _itemBoostSpeed: 25
+  _confusionDuration: 2
   _boostSpeed: 10
 --- !u!114 &6537900457364488531
 MonoBehaviour:
@@ -442,6 +445,7 @@ MonoBehaviour:
   _brakeValue: 0
   _itemUsed: 0
   _positionReset: 0
+  _isConfused: 0
 --- !u!114 &1417145683292037641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,6 +894,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e63e9b5fd272649499f3444be7c348de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6673553914343536287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417145683292037634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec48daf833f0c51409385645aade6381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1417145683384164879

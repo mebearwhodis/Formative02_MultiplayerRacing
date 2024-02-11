@@ -84,16 +84,12 @@ public class Interactibles : MonoBehaviour
             // Calculate boost direction based on the speed boost object's forward vector
             Vector3 boostDirection = other.transform.forward.normalized;
             _rb.velocity += boostDirection * _boostSpeed;
-
-            Debug.Log(_rb.velocity.magnitude);
         }
         else if (other.gameObject.CompareTag("ItemBox"))
         {
             other.gameObject.SetActive(false);
             //Rand for power-up
-            //Debug.Log(_powerUpsList[Random.Range(0,6)]);
             _itemHeld = (Random.Range(0, 6) + 1);
-            Debug.Log("Got item: " + _powerUpsList[_itemHeld]);
             //Make it reappear after a delay
             StartCoroutine(SetActiveAfterDelay(other.gameObject, 5.0f));
         }

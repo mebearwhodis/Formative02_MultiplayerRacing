@@ -6,15 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e0530042-3a9f-497c-b0b0-177e010560ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/WeirdSphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/WeirdSphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalAssets/Ash Assets/Sim-Cade Vehicle Physics/Scripts/ResetVehicle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalAssets/Ash Assets/Sim-Cade Vehicle Physics/Scripts/ResetVehicle.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Interactibles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Interactibles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/VehiclesInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/VehiclesInputs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Car Presets/Ash_Pickup Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Car Presets/Ash_Pickup Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Car Presets/Ash_Sedan Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Car Presets/Ash_Sedan Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Car Presets/Ash_Sports Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Car Presets/Ash_Sports Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Drivable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Prefabs/Drivable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Scenes/GameTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Scenes/GameTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/OfflineMode/Scripts/Checkpoints.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OfflineMode/Scripts/Interactibles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OfflineMode/Scripts/Movement/OfflineCarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OfflineMode/Scripts/Movement/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,30 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\ratdo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\ratdo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\ratdo\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\ratdo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\ratdo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\ratdo\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../MultiplayerRacingBuild/Formative02_MultiplayerRacing.exe" />
@@ -139,6 +141,7 @@
       <workItem from="1707480798321" duration="599000" />
       <workItem from="1707487505230" duration="1638000" />
       <workItem from="1707594250194" duration="8868000" />
+      <workItem from="1707644681635" duration="1838000" />
     </task>
     <servers />
   </component>
