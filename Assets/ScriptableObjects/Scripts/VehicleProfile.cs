@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "VehicleDatas/LobbyProfile", fileName = "lobbyProfile")]
-public class LobbyProfile : ScriptableObject
+[CreateAssetMenu(menuName = "VehicleDatas/VehicleProfile", fileName = "VehicleProfile")]
+public class VehicleProfile : ScriptableObject
 {
  //Model = No physics
  public GameObject _model;

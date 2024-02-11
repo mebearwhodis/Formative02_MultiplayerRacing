@@ -8,17 +8,20 @@ TagManager:
   - SpeedBoost
   - ItemBox
   - Vehicle
+  - Checkpoint
+  - MidCheckpoint
+  - FinishLine
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - World
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player1
+  - Player2
+  - Player3
+  - Player4
   - 
   - 
   - 

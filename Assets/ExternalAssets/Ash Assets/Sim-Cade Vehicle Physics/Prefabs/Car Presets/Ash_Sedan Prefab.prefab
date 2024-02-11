@@ -223,7 +223,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Controller
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Driving
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &4328310956938961217
@@ -243,6 +243,7 @@ MonoBehaviour:
   _brakeValue: 0
   _itemUsed: 0
   _positionReset: 0
+  _isConfused: 0
 --- !u!114 &-286796843565203641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +256,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08e6421095e3f243bf6ba8f51ba2d20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _itemHeld: 0
+  _isImmune: 0
+  _immunityDuration: 3
+  _pushForce: 10000
+  _shockDuration: 2
+  _itemBoostSpeed: 25
+  _confusionDuration: 2
   _boostSpeed: 10
 --- !u!114 &666127549213878524
 MonoBehaviour:
@@ -1259,7 +1267,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666127550858206113}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44d70cc20219cd84593f67d248eafe36, type: 3}
   m_Name: 

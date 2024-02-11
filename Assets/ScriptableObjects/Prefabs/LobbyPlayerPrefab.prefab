@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -4706904169356233059}
   - component: {fileID: 1167038499162367073}
   m_Layer: 0
-  m_Name: LobbyPrefab
+  m_Name: LobbyPlayerPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

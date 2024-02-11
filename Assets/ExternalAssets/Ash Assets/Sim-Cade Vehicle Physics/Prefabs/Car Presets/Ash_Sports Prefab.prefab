@@ -423,6 +423,7 @@ MonoBehaviour:
   _brakeValue: 0
   _itemUsed: 0
   _positionReset: 0
+  _isConfused: 0
 --- !u!114 &1417145683292037641
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,9 +5,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
-public class Lobby2Setup : MonoBehaviour
+public class OfflineLobbyPlayerSetup : MonoBehaviour
 {
-    [SerializeField] private List<LobbyProfile> _profiles;
+    [SerializeField] private List<VehicleProfile> _profiles;
     [SerializeField] private GameObject _body;
 
     public Action OnReady;
@@ -15,12 +15,13 @@ public class Lobby2Setup : MonoBehaviour
     private int _playerIndex;
     private string _controlScheme;
     private InputDevice[] _devices;
+    
 
     private int _modelIndex = 0;
     private bool _ready;
 
     public bool Ready => _ready;
-    public LobbyProfile Profile => _profiles[_modelIndex];
+    public VehicleProfile Profile => _profiles[_modelIndex];
     public int PlayerIndex => _playerIndex;
     public string ControlScheme => _controlScheme;
     public InputDevice[] Devices => _devices;
@@ -29,12 +30,6 @@ public class Lobby2Setup : MonoBehaviour
     {
         LoadNewModel();
     }
-    
-    // void OnNavigate(InputValue input)
-    // {
-    //     if(!input.isPressed){return;}
-    //     
-    // }
 
     void OnChangeModel(InputValue value)
     {

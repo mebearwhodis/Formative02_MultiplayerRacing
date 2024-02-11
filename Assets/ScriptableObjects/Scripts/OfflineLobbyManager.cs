@@ -7,15 +7,15 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 
-public class Lobby2Manager : MonoBehaviour
+public class OfflineLobbyManager : MonoBehaviour
 {
-    private List<SpawnPointGizmos> _spawnPoints = new List<SpawnPointGizmos>();
+    private List<SpawnPoints> _spawnPoints = new List<SpawnPoints>();
 
-    private List<Lobby2Setup> _joinedSetups = new List<Lobby2Setup>();
+    private List<OfflineLobbyPlayerSetup> _joinedSetups = new List<OfflineLobbyPlayerSetup>();
 
     private void Start()
     {
-        _spawnPoints = GetComponentsInChildren<SpawnPointGizmos>().ToList();
+        _spawnPoints = GetComponentsInChildren<SpawnPoints>().ToList();
     }
 
     public void OnPlayerJoined(PlayerInput input)
@@ -26,7 +26,7 @@ public class Lobby2Manager : MonoBehaviour
                   + input.currentControlScheme + " ** : ** "
                   + input.devices + " **" );
 
-        if (input.gameObject.TryGetComponent<Lobby2Setup>(out var setup))
+        if (input.gameObject.TryGetComponent<OfflineLobbyPlayerSetup>(out var setup))
         {
             setup.transform.position = _spawnPoints[input.playerIndex].transform.position;
             setup.BindInputs(input);
@@ -43,7 +43,7 @@ public class Lobby2Manager : MonoBehaviour
         if (_joinedSetups.Count < 2)
             return;
         bool everyoneIsReady = true;
-        foreach (Lobby2Setup setup in _joinedSetups)
+        foreach (OfflineLobbyPlayerSetup setup in _joinedSetups)
         {
             if (!setup.Ready)
                 everyoneIsReady = false;
@@ -51,7 +51,7 @@ public class Lobby2Manager : MonoBehaviour
 
         if (everyoneIsReady)
         {
-            foreach (Lobby2Setup setup in _joinedSetups)
+            foreach (OfflineLobbyPlayerSetup setup in _joinedSetups)
             {
                 setup.gameObject.SetActive(false);
             }
