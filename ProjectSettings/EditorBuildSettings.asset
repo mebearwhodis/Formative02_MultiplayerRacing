@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OnlineMainMenu.unity
+    path: Assets/Common/Scenes/OnlineMainMenu.unity
     guid: 3dc0955265940fa47a46dd7f71826db6
   - enabled: 1
-    path: Assets/Scenes/OnlineLevel.unity
+    path: Assets/Common/Scenes/OnlineLevel.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/ScriptableObjects/Scenes/Lobby.unity
+    path: Assets/Common/Scenes/Lobby.unity
     guid: f8d63684f885f3048931c3b5e2b2308e
   - enabled: 1
-    path: Assets/ScriptableObjects/Scenes/GameTest.unity
+    path: Assets/Common/Scenes/GameTest.unity
     guid: dd19adfbceecad9489affad6b598fdba
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 159c866278641014d862d51862b25aa9,

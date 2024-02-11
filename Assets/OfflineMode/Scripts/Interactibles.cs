@@ -17,9 +17,6 @@ public class Interactibles : MonoBehaviour
         // Immunity to other objects
         Immunity,
 
-        // -MarioSquid (if split screen)
-        Squid,
-
         // -Pushes other players
         Bomb,
 
@@ -37,7 +34,6 @@ public class Interactibles : MonoBehaviour
     {
         PowerUps.None,
         PowerUps.Immunity,
-        PowerUps.Squid,
         PowerUps.Bomb,
         PowerUps.Shock,
         PowerUps.Boost,
@@ -89,7 +85,7 @@ public class Interactibles : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             //Rand for power-up
-            _itemHeld = (Random.Range(0, 6) + 1);
+            _itemHeld = (Random.Range(0, 5) + 1);
             //Make it reappear after a delay
             StartCoroutine(SetActiveAfterDelay(other.gameObject, 5.0f));
         }
@@ -110,18 +106,15 @@ public class Interactibles : MonoBehaviour
                 UseImmunity();
                 break;
             case 2:
-                //UseSquid();
-                break;
-            case 3:
                 UseBomb();
                 break;
-            case 4:
+            case 3:
                 UseShock();
                 break;
-            case 5:
+            case 4:
                 UseBoost();
                 break;
-            case 6:
+            case 5:
                 UseConfuseRay();
                 break;
             default:
@@ -144,9 +137,7 @@ public class Interactibles : MonoBehaviour
         //Remove visual feedback here
     }
 
-    //2
-
-    //3 Bomb Item
+    //2 Bomb Item
     private void UseBomb()
     {
         GameObject[] vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
@@ -169,7 +160,7 @@ public class Interactibles : MonoBehaviour
         }
     }
 
-    //4 Shock Item
+    //3 Shock Item
     private void UseShock()
     {
         GameObject[] vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
@@ -206,13 +197,13 @@ public class Interactibles : MonoBehaviour
         }
     }
 
-    //5 Boost Item
+    //4 Boost Item
     private void UseBoost()
     {
         _rb.velocity += transform.forward * _itemBoostSpeed;
     }
 
-    //6 ConfuseRay Item
+    //5 ConfuseRay Item
     private void UseConfuseRay()
     {
         GameObject[] vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
