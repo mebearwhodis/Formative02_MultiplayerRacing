@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Ashsvp;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,6 +11,8 @@ public class SetPlayerProfile : MonoBehaviour
     [SerializeField] private GameObject _body;
     [SerializeField] private PlayerInput _playerInput;
     [SerializeField] private List<LayerMask> _playerLayers;
+    [SerializeField] private Speedometer _speedometer;
+    [SerializeField] private LapCounter _lapCounter;
 
     private VehicleProfile _profile;
 
@@ -24,6 +27,7 @@ public class SetPlayerProfile : MonoBehaviour
         //Inputs re-binding
         _playerInput.SwitchCurrentControlScheme(setup.ControlScheme, setup.Devices);
         
+        //Assign camera follow & lookat
         CinemachineVirtualCamera virtualCamera = GetComponentInChildren<CinemachineVirtualCamera>();
         virtualCamera.Follow = _body.transform;
         virtualCamera.LookAt = _body.transform;
@@ -37,6 +41,10 @@ public class SetPlayerProfile : MonoBehaviour
         
         //Add the layer to the mask using bitwise operation
         GetComponentInChildren<Camera>().cullingMask |= 1 << layerToAdd;
+
+        _speedometer.target = _body.GetComponent<Rigidbody>();
+        _lapCounter._target = _body;
+
     }
     
 }

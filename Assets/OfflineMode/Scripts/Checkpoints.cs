@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Checkpoints : MonoBehaviour
@@ -8,9 +9,10 @@ public class Checkpoints : MonoBehaviour
     private VehiclesInputs _input;
     private int _checkpointsPassed = 0;
     private GameObject _currentCheckpoint;
-    private bool _canEndTurn;
+    [SerializeField]private bool _canEndTurn;
     private int _turnNumber = 0;
 
+    public int TurnNumber => _turnNumber;
     public GameObject CurrentCheckpoint => _currentCheckpoint;
 
     private void Start()
@@ -36,7 +38,8 @@ public class Checkpoints : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("FinishLine"))
         {
-            if (_checkpointsPassed == 10 && _canEndTurn)
+            //if (_checkpointsPassed == 10 && _canEndTurn)
+            if (_canEndTurn)
             {
                 if (_turnNumber == 3)
                 {

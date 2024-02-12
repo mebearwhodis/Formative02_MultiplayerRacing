@@ -6,6 +6,7 @@ using Ashsvp;
 using Steamworks;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class Interactibles : MonoBehaviour
@@ -40,10 +41,13 @@ public class Interactibles : MonoBehaviour
         PowerUps.ConfuseRay
     };
 
-    [Header("Testing")] [SerializeField] private int _itemHeld = 0;
+    [Header("Testing")] 
+    [SerializeField] private int _itemHeld = 0;
     [SerializeField] private bool _isImmune = false;
+    
+    public int ItemHeld => _itemHeld;
 
-    [Header("Items")] [SerializeField] private float _immunityDuration = 3f;
+    [Header("Items Tweak")] [SerializeField] private float _immunityDuration = 3f;
     [SerializeField] private float _pushForce = 10000f;
     [SerializeField] private float _shockDuration = 2f;
     [SerializeField] private float _itemBoostSpeed = 25f;
@@ -66,9 +70,7 @@ public class Interactibles : MonoBehaviour
         if (_input._itemUsed && _itemHeld != 0)
         {
             UseItem(_itemHeld);
-            Debug.Log("Used item: " + _powerUpsList[_itemHeld]);
             _itemHeld = 0;
-            Debug.Log("New item: " + _powerUpsList[_itemHeld]);
         }
     }
 
@@ -84,8 +86,11 @@ public class Interactibles : MonoBehaviour
         else if (other.gameObject.CompareTag("ItemBox"))
         {
             other.gameObject.SetActive(false);
-            //Rand for power-up
-            _itemHeld = (Random.Range(0, 5) + 1);
+            if (_itemHeld == 0)
+            {
+                //Rand for power-up
+                _itemHeld = (Random.Range(0, 5) + 1);
+            }
             //Make it reappear after a delay
             StartCoroutine(SetActiveAfterDelay(other.gameObject, 5.0f));
         }
@@ -122,6 +127,8 @@ public class Interactibles : MonoBehaviour
         }
     }
 
+
+    
     //1 Immunity Item
     private void UseImmunity()
     {
