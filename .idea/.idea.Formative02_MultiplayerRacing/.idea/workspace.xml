@@ -6,26 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="e0530042-3a9f-497c-b0b0-177e010560ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Models/Final Vehicles/Classic Sedan/Classic Sedan Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Models/Final Vehicles/Classic Sedan/Classic Sedan Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/FinishLine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/FinishLine.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Common/Scenes/GameTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Scenes/GameTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/bright-explosion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/bright-explosion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/iconborder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/iconborder.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/psychic-waves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/psychic-waves.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/shield-reflect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/shield-reflect.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/speedometer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/speedometer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/thunder-struck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/thunder-struck.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Checkpoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Checkpoints.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Interactibles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Interactibles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/OfflinePlayerSetup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/OfflinePlayerSetup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/SetPlayerProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/SetPlayerProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/SimcadeVehicleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/SimcadeVehicleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Common/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/_defaultMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/_defaultMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/lightStone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/lightStone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/stone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/stone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/AdditiveLevels/Materials/CubeSphere.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/AdditiveLevels/Materials/CubeSphere.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/AdditiveLevels/Materials/Portal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/AdditiveLevels/Materials/Portal.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/AdditiveScenes/Materials/Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/AdditiveScenes/Materials/Cube.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/Billiards/Table/Pockets.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/Billiards/Table/Pockets.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/Room/Materials/PlayArea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/Room/Materials/PlayArea.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.rlabrecque.steamworks.net@a3fe8091f7/Runtime/InteropHelp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@16.0.4/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -156,7 +154,7 @@
       <workItem from="1707594250194" duration="8868000" />
       <workItem from="1707644681635" duration="2037000" />
       <workItem from="1707670263831" duration="11055000" />
-      <workItem from="1707742723360" duration="6099000" />
+      <workItem from="1707742723360" duration="8930000" />
     </task>
     <servers />
   </component>

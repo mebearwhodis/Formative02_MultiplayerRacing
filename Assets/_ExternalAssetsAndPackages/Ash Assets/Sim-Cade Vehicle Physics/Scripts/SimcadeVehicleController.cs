@@ -112,8 +112,8 @@ namespace Ashsvp
             {
                 HardPoints[i].localPosition = new Vector3(Wheels[i].localPosition.x, 0, Wheels[i].localPosition.z);
 
-                //wheelSkids[i] = Instantiate(WheelSkid, Wheels[i].GetChild(0)).GetComponent<WheelSkid>();
-                //setWheelSkidvalues_Start(i, SkidMarkController_Self.GetComponent<Skidmarks>(), wheelRadius);
+                wheelSkids[i] = Instantiate(WheelSkid, Wheels[i].GetChild(0)).GetComponent<WheelSkid>();
+                setWheelSkidvalues_Start(i, SkidMarkController_Self.GetComponent<Skidmarks>(), wheelRadius);
             }
             MaxSpringDistance = Mathf.Abs(Wheels[0].localPosition.y - HardPoints[0].localPosition.y) + 0.1f + wheelRadius;
 
@@ -173,7 +173,7 @@ namespace Ashsvp
                 GroundedCheckPerWheel(wheelIsGrounded);
 
                 tireVisual(wheelIsGrounded, Wheels[i], HardPoints[i], wheelHits[i].distance, i);
-                //setWheelSkidvalues_Update(i, skidTotal[i], wheelHits[i].point, wheelHits[i].normal);
+                setWheelSkidvalues_Update(i, skidTotal[i], wheelHits[i].point, wheelHits[i].normal);
 
             }
 
@@ -389,12 +389,12 @@ namespace Ashsvp
                 Vector3 SurfaceNormal = wheelHit.normal;
 
                 Vector3 contactVel = (wheel.InverseTransformDirection(rb.GetPointVelocity(hardPoint)).x) * wheel.right;
-                //contactVel = localVehicleVelocity.x * wheel.right;
+                contactVel = localVehicleVelocity.x * wheel.right;
                 //Debug.DrawRay(hardPoint, contactVel.normalized, Color.gray);
                 Vector3 contactDesiredAccel = -Vector3.ProjectOnPlane(contactVel, SurfaceNormal) / Time.fixedDeltaTime;
 
-                //Vector3 frictionForce = Vector3.ClampMagnitude(rb.mass/4 * contactDesiredAccel, springForce * FrictionCoefficient);
-                Vector3 frictionForce = rb.mass / 4 * contactDesiredAccel * FrictionCoefficient;
+                Vector3 frictionForce = Vector3.ClampMagnitude(rb.mass/4 * contactDesiredAccel, springForce * FrictionCoefficient);
+                //Vector3 frictionForce = rb.mass / 4 * contactDesiredAccel * FrictionCoefficient;
 
                 //Debug.DrawRay(hardPoint, frictionForce.normalized, Color.red);
 
@@ -517,17 +517,17 @@ namespace Ashsvp
 
         }
 
-        // void setWheelSkidvalues_Start(int wheelNum, Skidmarks skidmarks, float radius)
-        // {
-        //     wheelSkids[wheelNum].skidmarks = skidmarks;
-        //     wheelSkids[wheelNum].radius = wheelRadius;
-        // }
-        // void setWheelSkidvalues_Update(int wheelNum, float skidTotal, Vector3 skidPoint, Vector3 normal)
-        // {
-        //     wheelSkids[wheelNum].skidTotal = skidTotal;
-        //     wheelSkids[wheelNum].skidPoint = skidPoint;
-        //     wheelSkids[wheelNum].normal = normal;
-        // }
+        void setWheelSkidvalues_Start(int wheelNum, Skidmarks skidmarks, float radius)
+        {
+            wheelSkids[wheelNum].skidmarks = skidmarks;
+            wheelSkids[wheelNum].radius = wheelRadius;
+        }
+        void setWheelSkidvalues_Update(int wheelNum, float skidTotal, Vector3 skidPoint, Vector3 normal)
+        {
+            wheelSkids[wheelNum].skidTotal = skidTotal;
+            wheelSkids[wheelNum].skidPoint = skidPoint;
+            wheelSkids[wheelNum].normal = normal;
+        }
 
 
         void bodyAnimation()

@@ -78,9 +78,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _profiles:
+  - {fileID: 11400000, guid: 13bfb9a4cf2a3054086ab94d0c530064, type: 2}
+  - {fileID: 11400000, guid: a558d8d934fbc4f488371d286b363823, type: 2}
+  - {fileID: 11400000, guid: d704c68f25344e44d80c79663994b7d3, type: 2}
+  - {fileID: 11400000, guid: cf684cf8d8a94c842b09d40e8be3a108, type: 2}
   - {fileID: 11400000, guid: 2b2369b97a1c1504ebea41985c083233, type: 2}
+  - {fileID: 11400000, guid: 02a9e0fdc7128a94ea73e898337ab971, type: 2}
   - {fileID: 11400000, guid: 45e7efff2f7938a42a059cef9606cf69, type: 2}
   - {fileID: 11400000, guid: 2d35270403b42364ab1ee6557f8dcd4e, type: 2}
+  - {fileID: 11400000, guid: cace1ef32997b7e42820adf18430b6c5, type: 2}
   _body: {fileID: 7947774089400031769}
 --- !u!1001 &7101406667496171336
 PrefabInstance:

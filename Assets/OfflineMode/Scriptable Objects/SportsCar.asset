@@ -15,4 +15,4 @@ MonoBehaviour:
   _model: {fileID: 4605570156016488740, guid: 40c8920ba38295240b3d82e92dc09f2f, type: 3}
   _prefab: {fileID: 1417145683292037634, guid: 49501fbaf10422a4aa0df40c78a697ed, type: 3}
   Name: JP
-  ModelName: SportsCar
+  ModelName: Sports Car

@@ -15,4 +15,4 @@ MonoBehaviour:
   _model: {fileID: 7914225822441680412, guid: 9cbd2304ba99478438792f6041f97ce2, type: 3}
   _prefab: {fileID: 7546807113287405351, guid: 320b4d441fca4cb41b369b874b24f44f, type: 3}
   Name: Johnny
-  ModelName: Pickup
+  ModelName: Pickup-Truck
