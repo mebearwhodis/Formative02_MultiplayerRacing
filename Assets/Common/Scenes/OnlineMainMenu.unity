@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: coucou
+  m_text: VroomVroom but Online
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4265,18 +4265,24 @@ PrefabInstance:
     - target: {fileID: 8448547922247977442, guid: 3d1ae54eec56c7042b52ad958bf75fbd,
         type: 3}
       propertyPath: onlineScene
-      value: Assets/Scenes/OnlineMainMenu.unity
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8448547922247977442, guid: 3d1ae54eec56c7042b52ad958bf75fbd,
         type: 3}
       propertyPath: offlineScene
-      value: Assets/Scenes/OnlineMainMenu.unity
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8448547922247977442, guid: 3d1ae54eec56c7042b52ad958bf75fbd,
         type: 3}
       propertyPath: _playerCharacter
       value: 
-      objectReference: {fileID: 7187550417551698985, guid: 77ff38920ea32cc409b2c03cb0116c0b,
+      objectReference: {fileID: 4595383416263545631, guid: 2eb45419fa3a31a45a903831bfcdc37d,
+        type: 3}
+    - target: {fileID: 8448547922247977442, guid: 3d1ae54eec56c7042b52ad958bf75fbd,
+        type: 3}
+      propertyPath: 'spawnPrefabs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4595383416263545631, guid: 2eb45419fa3a31a45a903831bfcdc37d,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

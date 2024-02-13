@@ -14,14 +14,14 @@ public class JoinLobbyMenu : MonoBehaviour
 
     private void OnEnable()
     {
-        CustomNetworkManager.ClientOnConnected += HandleClientConnected;
-        CustomNetworkManager.ClientOnDisconnected += HandleClientDisconnected;
+        Online_CustomNetworkManager.ClientOnConnected += HandleClientConnected;
+        Online_CustomNetworkManager.ClientOnDisconnected += HandleClientDisconnected;
     }
 
     private void OnDisable()
     {
-        CustomNetworkManager.ClientOnConnected -= HandleClientConnected;
-        CustomNetworkManager.ClientOnDisconnected -= HandleClientDisconnected;
+        Online_CustomNetworkManager.ClientOnConnected -= HandleClientConnected;
+        Online_CustomNetworkManager.ClientOnDisconnected -= HandleClientDisconnected;
     }
 
     public void Join()

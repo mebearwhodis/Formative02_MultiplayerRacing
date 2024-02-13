@@ -9,7 +9,7 @@ namespace Ashsvp
 		[HideInInspector]
 		public float SkidmarkWidth = 0.5f;
 
-		private const int MaxSkidMarks = 2048;
+		private const int MaxSkidMarks = 512;
 		private const float contact_Offset = 0.02f;
 		private const float MinDistance = 0.25f;
 		private const float MinDistanceSquare = MinDistance * MinDistance;

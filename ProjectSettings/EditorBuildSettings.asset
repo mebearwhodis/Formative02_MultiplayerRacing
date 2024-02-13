@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Common/Scenes/GameTest.unity
     guid: dd19adfbceecad9489affad6b598fdba
+  - enabled: 0
+    path: Assets/OnlineMode/V2/Scenes/OnlineV2.unity
+    guid: 7ac13af10b06c884c8e6fb0bddfcf9f3
+  - enabled: 1
+    path: Assets/Common/Scenes/LevelOne.unity
+    guid: 6f8eb5995cb006f4db1d2e8d071344e4
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 159c866278641014d862d51862b25aa9,
       type: 2}

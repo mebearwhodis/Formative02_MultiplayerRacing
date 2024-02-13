@@ -74,7 +74,7 @@ public class CustomNetworkPlayer : NetworkBehaviour
     public void CmdStartGame()
     {
         if(!_isPartyOwner){return;}
-        ((CustomNetworkManager)NetworkManager.singleton).StartGame();
+        ((Online_CustomNetworkManager)NetworkManager.singleton).StartGame();
     }
 
     #endregion
@@ -87,14 +87,14 @@ public class CustomNetworkPlayer : NetworkBehaviour
         
         DontDestroyOnLoad(gameObject);
         
-        ((CustomNetworkManager)NetworkManager.singleton)._players.Add(this);
+        ((Online_CustomNetworkManager)NetworkManager.singleton)._players.Add(this);
     }
 
     public override void OnStopClient()
     {
         ClientOnInfoUpdated?.Invoke();
         if(!isClientOnly){return;}
-        ((CustomNetworkManager)NetworkManager.singleton)._players.Remove(this);
+        ((Online_CustomNetworkManager)NetworkManager.singleton)._players.Remove(this);
     }
 
     private void ClientHandleDisplayNameUpdated(string oldName, string newName)
