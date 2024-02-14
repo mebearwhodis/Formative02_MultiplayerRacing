@@ -7,94 +7,29 @@
     <list default="true" id="e0530042-3a9f-497c-b0b0-177e010560ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/Checkpoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/Checkpoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/FinishLine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/FinishLine.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/ItemBox.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/MidCheckpoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/MidCheckpoint.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Prefabs/SpeedBoost.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/Scenes/GameTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Scenes/GameTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/Scenes/OnlineMainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Scenes/OnlineMainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Bomb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Boost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Boost.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/ConfuseRay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/ConfuseRay.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Immunity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Immunity.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/ItemIconBorder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/ItemIconBorder.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Shock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/Shock.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/UI/Images/SpeedBoostArrows.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/UI/Images/SpeedBoostArrows.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Bus Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Bus Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Classic Sedan Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Classic Sedan Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Formula Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Formula Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Monster Truck Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Monster Truck Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Old RR Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Old RR Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Pickup Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Pickup Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Porsche Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Porsche Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Sedan Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Sedan Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Sports Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Sports Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Super Car Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Car Presets/Ash_Super Car Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/LobbyPlayerPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/LobbyPlayerPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/RaceCar(off).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/RaceCar(off).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/OfflineLobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Offline_LobbyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/OfflineLobbyManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Offline_LobbyManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/PlayerCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/PlayerCharacter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/PlayerCharacter.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/PlayerCharacter.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/PlayerEntity.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/PlayerEntity.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/Vehicles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/Vehicles/Ash_Sports Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/Vehicles/Ash_Sports Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/Vehicles/RaceCar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Prefabs/Vehicles/RaceCar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/JoinLobbyMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/JoinLobbyMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/LobbyMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/Online_LobbyMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/LobbyMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/Online_LobbyMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/Online_MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/MainMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Menus/Online_MainMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Networking/CustomNetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Networking/Online_CustomNetworkManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Networking/CustomNetworkManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Networking/Online_CustomNetworkManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Networking/CustomNetworkPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineMode/Scripts/Networking/CustomNetworkPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/Skidmarks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/Skidmarks.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Materials/DeathgroundMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Materials/DeathgroundMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Materials/RallyGroundMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Materials/RallyGroundMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/blueSteel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Decoration/Materials/blueSteel.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Wheel/Materials/EmilyBasePaint.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Wheel/Materials/EmilyBasePaint.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Wheel/Materials/EmilyExhaust.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Wheel/Materials/EmilyExhaust.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Wheel/Materials/EmilyTires.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/HighroadEngine/Solid/Models/Wheel/Materials/EmilyTires.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialBlack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialBrown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialBrown.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialDesert.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialDesert.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialFloor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialGold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialGold.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialGreenDark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialGreenDark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialIcon1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialIcon1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialRed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialSilver.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialSilver.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CharacterSelection/Materials/MaterialWhite.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CouchCoop/Materials/MaterialGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CouchCoop/Materials/MaterialGround.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CouchCoop/Materials/MaterialPlatform1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CouchCoop/Materials/MaterialPlatform1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CouchCoop/Materials/MaterialPlatform2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/CouchCoop/Materials/MaterialPlatform2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/RigidbodyPhysics/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/RigidbodyPhysics/Materials/Floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/RigidbodyPhysics/Materials/Server.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Mirror/Examples/RigidbodyPhysics/Materials/Server.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Scenes/LevelOne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Offline_LobbyPlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Offline_LobbyPlayerPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Offline_Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Offline_Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Bus Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Bus Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Classic Sedan Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Classic Sedan Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Formula Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Formula Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Monster Truck Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Monster Truck Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Old RR Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Old RR Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Pickup Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Pickup Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Porsche Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Porsche Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Sedan Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Sedan Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Sports Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Sports Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Super Car Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Prefabs/Vehicles/Offline_Super Car Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Checkpoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Checkpoints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Interactibles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/Interactibles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/LapCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/LapCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/ResetVehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OfflineMode/Scripts/ResetVehicle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,6 +168,7 @@
       <workItem from="1707742723360" duration="8935000" />
       <workItem from="1707815191435" duration="3468000" />
       <workItem from="1707819617559" duration="14289000" />
+      <workItem from="1707936505119" duration="7525000" />
     </task>
     <servers />
   </component>

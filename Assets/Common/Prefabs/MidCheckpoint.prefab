@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1366180259614248231}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MidCheckpoint
   m_TagString: MidCheckpoint
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -43,7 +43,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5447840017781534333}
   - component: {fileID: 1924415517199855913}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 7394256638160238547}
   - component: {fileID: 7458881741354871869}
   - component: {fileID: 5540849962898348047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Collider
   m_TagString: MidCheckpoint
   m_Icon: {fileID: 0}
@@ -224,5 +224,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 5, z: 0}

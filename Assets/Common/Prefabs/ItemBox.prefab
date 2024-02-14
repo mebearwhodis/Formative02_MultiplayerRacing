@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000014042823884}
   - component: {fileID: 198000010701281342}
   - component: {fileID: 199000011353847076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StarsParticles (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4859,7 +4859,7 @@ GameObject:
   - component: {fileID: 4000012668687806}
   - component: {fileID: 33000012016323468}
   - component: {fileID: 23000010184599378}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4944,7 +4944,7 @@ GameObject:
   - component: {fileID: 4000012492127042}
   - component: {fileID: 33000010580287100}
   - component: {fileID: 23000012918252792}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5029,7 +5029,7 @@ GameObject:
   - component: {fileID: 4000013931586586}
   - component: {fileID: 33000010956936110}
   - component: {fileID: 23000012848440176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5114,7 +5114,7 @@ GameObject:
   - component: {fileID: 4000010597890016}
   - component: {fileID: 33000012994407892}
   - component: {fileID: 23000013747609510}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5199,7 +5199,7 @@ GameObject:
   - component: {fileID: 4000013661543622}
   - component: {fileID: 198000011239713798}
   - component: {fileID: 199000013806171000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StarsParticles (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10047,7 +10047,7 @@ GameObject:
   - component: {fileID: 4000013138456458}
   - component: {fileID: 33000012252132480}
   - component: {fileID: 23000013516114954}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10130,7 +10130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000010583859816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Destroy_box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10184,7 +10184,7 @@ GameObject:
   - component: {fileID: 4000010662912380}
   - component: {fileID: 33000013312767390}
   - component: {fileID: 23000012644991564}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10269,7 +10269,7 @@ GameObject:
   - component: {fileID: 4000011175610848}
   - component: {fileID: 33000014174738790}
   - component: {fileID: 23000011035977048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10354,7 +10354,7 @@ GameObject:
   - component: {fileID: 4000013980523318}
   - component: {fileID: 33000013714926170}
   - component: {fileID: 23000010861272518}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10439,7 +10439,7 @@ GameObject:
   - component: {fileID: 4000012694970424}
   - component: {fileID: 33000010022819624}
   - component: {fileID: 23000014185208820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10524,7 +10524,7 @@ GameObject:
   - component: {fileID: 4000012195831192}
   - component: {fileID: 33000010978397708}
   - component: {fileID: 23000010011737380}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10609,7 +10609,7 @@ GameObject:
   - component: {fileID: 4000012020303512}
   - component: {fileID: 33000013815660172}
   - component: {fileID: 23000012356797934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10694,7 +10694,7 @@ GameObject:
   - component: {fileID: 4000013253568472}
   - component: {fileID: 33000010048124634}
   - component: {fileID: 23000013346354790}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10779,7 +10779,7 @@ GameObject:
   - component: {fileID: 4000012551249886}
   - component: {fileID: 33000013666241324}
   - component: {fileID: 23000011057740090}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10864,7 +10864,7 @@ GameObject:
   - component: {fileID: 4000010598305360}
   - component: {fileID: 33000013709606798}
   - component: {fileID: 23000010294522994}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10949,7 +10949,7 @@ GameObject:
   - component: {fileID: 4000012114501824}
   - component: {fileID: 33000011181671448}
   - component: {fileID: 23000010454575934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11034,7 +11034,7 @@ GameObject:
   - component: {fileID: 4000010938941616}
   - component: {fileID: 33000014271145336}
   - component: {fileID: 23000012164023138}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11119,7 +11119,7 @@ GameObject:
   - component: {fileID: 4000013137885158}
   - component: {fileID: 33000012163257350}
   - component: {fileID: 23000011755218114}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11204,7 +11204,7 @@ GameObject:
   - component: {fileID: 4000011684221606}
   - component: {fileID: 198000010969533416}
   - component: {fileID: 199000013466151520}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StarsParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16012,7 +16012,7 @@ GameObject:
   - component: {fileID: 4000010173249852}
   - component: {fileID: 33000014288183896}
   - component: {fileID: 23000010925734176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16097,7 +16097,7 @@ GameObject:
   - component: {fileID: 4000010043812026}
   - component: {fileID: 95000011159147032}
   - component: {fileID: 5039589692335517725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ItemBox
   m_TagString: ItemBox
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
@@ -16163,8 +16163,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 5, z: 0}
 --- !u!1 &1000014199803242
 GameObject:
   m_ObjectHideFlags: 0
@@ -16176,7 +16176,7 @@ GameObject:
   - component: {fileID: 4000011670470452}
   - component: {fileID: 33000012717388998}
   - component: {fileID: 23000011448965100}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Object006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16261,7 +16261,7 @@ GameObject:
   - component: {fileID: 4000013874342526}
   - component: {fileID: 33000011091771082}
   - component: {fileID: 23000013517712602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Box001
   m_TagString: Untagged
   m_Icon: {fileID: 0}

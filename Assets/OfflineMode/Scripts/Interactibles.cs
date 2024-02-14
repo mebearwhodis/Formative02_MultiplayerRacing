@@ -58,11 +58,12 @@ public class Interactibles : MonoBehaviour
 
     private Rigidbody _rb;
     private VehiclesInputs _input;
+    [SerializeField] private GameObject _thisVehicle;
 
     private void Start()
     {
-        _rb = GetComponent<Rigidbody>();
-        _input = GetComponent<VehiclesInputs>();
+        _input = _thisVehicle.GetComponent<VehiclesInputs>();
+        _rb = _thisVehicle.GetComponent<Rigidbody>();
     }
 
     private void Update()
@@ -103,6 +104,7 @@ public class Interactibles : MonoBehaviour
         obj.SetActive(true);
     }
 
+    //Use items
     private void UseItem(int itemHeld)
     {
         switch (itemHeld)
@@ -152,7 +154,7 @@ public class Interactibles : MonoBehaviour
         foreach (GameObject vehicle in vehicles)
         {
             // Exclude the player who initiated the push & players that are immune
-            if (vehicle != gameObject && !vehicle.GetComponent<Interactibles>()._isImmune)
+            if (vehicle != _thisVehicle && !vehicle.GetComponentInChildren<Interactibles>()._isImmune)
             {
                 Rigidbody rb = vehicle.GetComponent<Rigidbody>();
                 if (rb != null)
@@ -174,7 +176,7 @@ public class Interactibles : MonoBehaviour
 
         foreach (GameObject vehicle in vehicles)
         {
-            if (vehicle != gameObject && !vehicle.GetComponent<Interactibles>()._isImmune)
+            if (vehicle != _thisVehicle && !vehicle.GetComponentInChildren<Interactibles>()._isImmune)
             {
                 MonoBehaviour script = vehicle.GetComponent("SimcadeVehicleController") as MonoBehaviour;
                 if (script != null)
@@ -193,7 +195,7 @@ public class Interactibles : MonoBehaviour
 
         foreach (GameObject vehicle in vehicles)
         {
-            if (vehicle != gameObject && !vehicle.GetComponent<Interactibles>()._isImmune)
+            if (vehicle != _thisVehicle && !vehicle.GetComponentInChildren<Interactibles>()._isImmune)
             {
                 MonoBehaviour script = vehicle.GetComponent("SimcadeVehicleController") as MonoBehaviour;
                 if (script != null)
@@ -217,7 +219,7 @@ public class Interactibles : MonoBehaviour
 
         foreach (GameObject vehicle in vehicles)
         {
-            if (vehicle != gameObject && !vehicle.GetComponent<Interactibles>()._isImmune)
+            if (vehicle != _thisVehicle && !vehicle.GetComponentInChildren<Interactibles>()._isImmune)
             {
                 vehicle.GetComponent<VehiclesInputs>()._isConfused = true;
             }
@@ -232,7 +234,7 @@ public class Interactibles : MonoBehaviour
 
         foreach (GameObject vehicle in vehicles)
         {
-            if (vehicle != gameObject && !vehicle.GetComponent<Interactibles>()._isImmune)
+            if (vehicle != _thisVehicle && !vehicle.GetComponentInChildren<Interactibles>()._isImmune)
             {
                 vehicle.GetComponent<VehiclesInputs>()._isConfused = false;
             }

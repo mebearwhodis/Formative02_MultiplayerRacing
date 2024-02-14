@@ -13,7 +13,7 @@ public class ResetVehicle : MonoBehaviour
     private void Start()
     {
         _input = GetComponent<VehiclesInputs>();
-        _checkpoints = GetComponent<Checkpoints>();
+        _checkpoints = GetComponentInChildren<Checkpoints>();
         _rb = GetComponent<Rigidbody>();
     }
 
@@ -27,9 +27,8 @@ public class ResetVehicle : MonoBehaviour
     
     private void resetVehiclePos()
     {
-        GameObject checkpoint = _checkpoints.CurrentCheckpoint;
-        transform.position = checkpoint.transform.position;
-        transform.rotation = checkpoint.transform.rotation;
+        transform.position = _checkpoints.RespawnPoint;
+        transform.rotation = _checkpoints.Rotation;
         _rb.velocity = new Vector3(0,0,0);
 
     }

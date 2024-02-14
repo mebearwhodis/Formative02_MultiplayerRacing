@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8466682016379963760}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SpeedBoost
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 6327481446669747471}
   - component: {fileID: 4801345387344126338}
   - component: {fileID: 6532493499744385565}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Collider
   m_TagString: SpeedBoost
   m_Icon: {fileID: 0}
@@ -140,8 +140,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 5, z: 0}
 --- !u!1 &1529983577768116469
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8215057912542600837}
   - component: {fileID: 2814935056027279355}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Arrows2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7408422390713811203}
   - component: {fileID: 2770993694964837835}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Arrows3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2430910957882377836}
   - component: {fileID: 4345204430397121994}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Arrows1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
