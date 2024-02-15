@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/Billiards/Ball/RedBall.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/Billiards/Ball/RedBall.cs
   uploadId: 634249

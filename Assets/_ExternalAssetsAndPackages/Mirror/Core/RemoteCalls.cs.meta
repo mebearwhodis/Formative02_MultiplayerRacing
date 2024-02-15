@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Core/RemoteCalls.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Core/RemoteCalls.cs
   uploadId: 634249

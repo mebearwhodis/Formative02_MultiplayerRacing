@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/RigidbodyBenchmark/PhysicMaterials/Floor.physicMaterial
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/RigidbodyBenchmark/PhysicMaterials/Floor.physicMaterial
   uploadId: 634249

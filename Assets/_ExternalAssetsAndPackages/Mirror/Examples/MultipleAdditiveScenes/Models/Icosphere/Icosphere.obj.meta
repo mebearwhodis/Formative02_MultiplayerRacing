@@ -107,5 +107,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj
   uploadId: 634249

@@ -10,5 +10,6 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/LagCompensation/_DISABLE VSYNC_
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/LagCompensation/_DISABLE
+    VSYNC_
   uploadId: 634249

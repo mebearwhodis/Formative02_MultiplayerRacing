@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/BenchmarkStinkySteak/Dependencies/Unity-Simulation-Timer/Runtime/SimulationTimer.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/BenchmarkStinkySteak/Dependencies/Unity-Simulation-Timer/Runtime/SimulationTimer.cs
   uploadId: 634249

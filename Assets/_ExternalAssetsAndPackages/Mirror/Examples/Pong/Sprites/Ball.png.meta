@@ -91,5 +91,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/Pong/Sprites/Ball.png
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/Pong/Sprites/Ball.png
   uploadId: 634249

@@ -16,6 +16,8 @@ public class SetPlayerProfile : MonoBehaviour
 
     private VehicleProfile _profile;
 
+    public PlayerInput PlayerInput => _playerInput;
+
     public void SetProfile(OfflineLobbyPlayerSetup setup)
     {
         _profile = setup.Profile;

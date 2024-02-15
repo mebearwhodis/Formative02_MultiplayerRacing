@@ -12,5 +12,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat
   uploadId: 634249

@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Hosting/Mirror.Hosting.asmdef
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Hosting/Mirror.Hosting.asmdef
   uploadId: 634249

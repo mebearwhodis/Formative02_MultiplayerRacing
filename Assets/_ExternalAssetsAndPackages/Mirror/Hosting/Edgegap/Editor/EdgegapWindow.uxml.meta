@@ -13,5 +13,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Hosting/Edgegap/Editor/EdgegapWindow.uxml
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Hosting/Edgegap/Editor/EdgegapWindow.uxml
   uploadId: 634249

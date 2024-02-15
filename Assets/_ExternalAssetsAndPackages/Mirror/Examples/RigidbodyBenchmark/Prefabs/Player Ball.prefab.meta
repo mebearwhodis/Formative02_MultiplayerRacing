@@ -10,5 +10,6 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/RigidbodyBenchmark/Prefabs/Player Ball.prefab
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/RigidbodyBenchmark/Prefabs/Player
+    Ball.prefab
   uploadId: 634249

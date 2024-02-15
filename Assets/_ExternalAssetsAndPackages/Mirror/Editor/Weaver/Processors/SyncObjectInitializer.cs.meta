@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Editor/Weaver/Processors/SyncObjectInitializer.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Editor/Weaver/Processors/SyncObjectInitializer.cs
   uploadId: 634249

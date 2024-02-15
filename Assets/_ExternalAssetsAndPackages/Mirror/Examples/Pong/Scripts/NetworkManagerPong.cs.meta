@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/Pong/Scripts/NetworkManagerPong.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/Pong/Scripts/NetworkManagerPong.cs
   uploadId: 634249

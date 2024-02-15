@@ -97,5 +97,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll
   uploadId: 634249

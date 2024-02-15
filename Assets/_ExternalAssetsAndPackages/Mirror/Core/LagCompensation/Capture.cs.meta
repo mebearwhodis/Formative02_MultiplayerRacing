@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Core/LagCompensation/Capture.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Core/LagCompensation/Capture.cs
   uploadId: 634249

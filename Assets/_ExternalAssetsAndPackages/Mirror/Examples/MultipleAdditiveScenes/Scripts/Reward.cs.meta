@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/Reward.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/MultipleAdditiveScenes/Scripts/Reward.cs
   uploadId: 634249

@@ -51,7 +51,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Pause",
+                    "name": "ShowInputs",
                     "type": "PassThrough",
                     "id": "b9e000e1-6f28-4db7-90c3-5c7e16d6810d",
                     "expectedControlType": "Button",
@@ -161,6 +161,17 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "positive",
+                    "id": "1b142bcd-9ac1-4823-8879-621393fabcb5",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "e723b358-8441-4260-8a95-40db72188b29",
                     "path": "<Gamepad>/buttonEast",
@@ -238,6 +249,17 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "negative",
+                    "id": "0f0857ad-a928-4c3f-8472-25a4aec5e60e",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "positive",
                     "id": "2b881866-e2d1-4bbc-bdba-43d93340e14b",
                     "path": "<Keyboard>/d",
@@ -299,18 +321,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller",
-                    "action": "Pause",
+                    "action": "ShowInputs",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "fb64dac3-7023-4e02-abfd-5329f6527209",
-                    "path": "<Keyboard>/escape",
+                    "path": "<Keyboard>/tab",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
-                    "action": "Pause",
+                    "action": "ShowInputs",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/LagCompensation/ServerCube.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/LagCompensation/ServerCube.cs
   uploadId: 634249

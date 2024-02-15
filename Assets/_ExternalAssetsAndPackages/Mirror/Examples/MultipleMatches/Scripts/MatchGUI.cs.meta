@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/MultipleMatches/Scripts/MatchGUI.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/MultipleMatches/Scripts/MatchGUI.cs
   uploadId: 634249

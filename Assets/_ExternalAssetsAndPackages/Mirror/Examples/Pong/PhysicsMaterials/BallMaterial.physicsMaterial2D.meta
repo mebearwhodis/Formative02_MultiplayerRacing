@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/Pong/PhysicsMaterials/BallMaterial.physicsMaterial2D
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/Pong/PhysicsMaterials/BallMaterial.physicsMaterial2D
   uploadId: 634249

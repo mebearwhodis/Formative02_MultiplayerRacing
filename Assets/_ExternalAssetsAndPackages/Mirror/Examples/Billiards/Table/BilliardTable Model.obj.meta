@@ -109,5 +109,6 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/Billiards/Table/BilliardTable Model.obj
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/Billiards/Table/BilliardTable
+    Model.obj
   uploadId: 634249

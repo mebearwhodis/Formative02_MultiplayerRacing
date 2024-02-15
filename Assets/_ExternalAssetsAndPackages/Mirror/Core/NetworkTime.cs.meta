@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Core/NetworkTime.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Core/NetworkTime.cs
   uploadId: 634249

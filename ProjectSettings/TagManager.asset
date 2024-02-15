@@ -11,6 +11,8 @@ TagManager:
   - Checkpoint
   - MidCheckpoint
   - FinishLine
+  - KeyboardScheme
+  - ControllerScheme
   layers:
   - Default
   - TransparentFX

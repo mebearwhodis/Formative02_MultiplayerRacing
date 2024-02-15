@@ -15,6 +15,8 @@ public class VehiclesInputs : MonoBehaviour
 
     public bool _isConfused = false;
 
+    
+
         public void OnAccelerate(InputValue value)
         {
             _accelerationValue = value.Get<float>();
@@ -39,4 +41,5 @@ public class VehiclesInputs : MonoBehaviour
         {
             _positionReset = value.isPressed;
         }
+    
 }

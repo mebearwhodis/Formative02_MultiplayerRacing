@@ -6,5 +6,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Examples/_Common/Scripts/FaceCamera.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Examples/_Common/Scripts/FaceCamera.cs
   uploadId: 634249

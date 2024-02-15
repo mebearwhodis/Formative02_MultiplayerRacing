@@ -6,5 +6,5 @@ AssetOrigin:
   productId: 129321
   packageName: Mirror
   packageVersion: 86.13.4
-  assetPath: Assets/Mirror/Editor/SyncObjectCollectionsDrawer.cs
+  assetPath: Assets/_ExternalAssetsAndPackages/Mirror/Editor/SyncObjectCollectionsDrawer.cs
   uploadId: 634249
