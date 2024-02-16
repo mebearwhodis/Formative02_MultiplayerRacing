@@ -13,10 +13,19 @@ public class SetPlayerProfile : MonoBehaviour
     [SerializeField] private List<LayerMask> _playerLayers;
     [SerializeField] private Speedometer _speedometer;
     [SerializeField] private LapCounter _lapCounter;
-
+    
     private VehicleProfile _profile;
 
+    public VehicleProfile Profile => _profile;
+
     public PlayerInput PlayerInput => _playerInput;
+
+    private bool _isFirst = false;
+    public bool IsFirst
+    {
+        get => _isFirst;
+        set => _isFirst = value;
+    }
 
     public void SetProfile(OfflineLobbyPlayerSetup setup)
     {
@@ -48,5 +57,13 @@ public class SetPlayerProfile : MonoBehaviour
         _lapCounter._target = _body;
 
     }
-    
+
+    public void SetGameOverProfile(OfflineLobbyPlayerSetup setup)
+    {
+        _profile = setup.Profile;
+        
+        //Shapeshifting
+        Destroy(_body);
+        _body = Instantiate(_profile._prefab, transform);
+    }
 }

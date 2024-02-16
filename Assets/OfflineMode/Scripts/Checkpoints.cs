@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Checkpoints : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Checkpoints : MonoBehaviour
     [SerializeField] private GameObject _thisVehicle;
     private Quaternion _rotation;
 
+    private SetPlayerProfile _setPlayerProfile;
+
     public int TurnNumber => _turnNumber;
     public GameObject CurrentCheckpoint => _currentCheckpoint;
 
@@ -26,6 +29,8 @@ public class Checkpoints : MonoBehaviour
         _input = _thisVehicle.GetComponent<VehiclesInputs>();
         _respawnPoint = _thisVehicle.transform.position;
         _rotation = _thisVehicle.transform.rotation;
+
+        _setPlayerProfile = this.transform.parent.GetComponentInParent<SetPlayerProfile>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -52,9 +57,11 @@ public class Checkpoints : MonoBehaviour
             //if (_checkpointsPassed == 10 && _canEndTurn)
             if (_canEndTurn)
             {
-                if (_turnNumber == 3)
+                if (_turnNumber == 2)
                 {
                     //End Game
+                    this._setPlayerProfile.IsFirst = true;
+                    SceneManager.LoadScene("GameOver");
                 }
                 else
                 {

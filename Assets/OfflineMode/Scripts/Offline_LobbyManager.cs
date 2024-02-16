@@ -29,6 +29,7 @@ public class Offline_LobbyManager : MonoBehaviour
         if (input.gameObject.TryGetComponent<OfflineLobbyPlayerSetup>(out var setup))
         {
             setup.transform.position = _spawnPoints[input.playerIndex].transform.position;
+            setup.transform.rotation = _spawnPoints[input.playerIndex].transform.rotation;
             setup.BindInputs(input);
 
             setup.OnReady += CheckEveryoneIsReady;

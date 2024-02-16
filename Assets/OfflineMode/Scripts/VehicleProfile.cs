@@ -14,4 +14,5 @@ public class VehicleProfile : ScriptableObject
  [Header("Gameplay Datas")] 
  public string Name;
  public string ModelName;
+ 
 }

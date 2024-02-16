@@ -19,7 +19,7 @@ public class LapCounter : MonoBehaviour
     {
         if (_target.GetComponentInChildren<Checkpoints>().TurnNumber != _tempLapCount)
         {
-            _lapCounterText.text = "Lap " + _target.GetComponentInChildren<Checkpoints>().TurnNumber + "/3";
+            _lapCounterText.text = "Lap " + (_target.GetComponentInChildren<Checkpoints>().TurnNumber +1) + "/3";
             _tempLapCount++;
         }
     }
