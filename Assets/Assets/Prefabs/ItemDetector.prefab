@@ -50,12 +50,12 @@ MonoBehaviour:
   _isImmune: 0
   _isConfused: 0
   _isStunned: 0
-  _immunityDuration: 5
-  _pushForce: 10000
-  _shockDuration: 5
+  _immunityDuration: 3
+  _pushForce: 5000
+  _shockDuration: 2
   _itemBoostSpeed: 25
   _confusionDuration: 2
-  _boostSpeed: 10
+  _boostSpeed: 15
   _thisVehicle: {fileID: 0}
 --- !u!114 &874376216310571539
 MonoBehaviour:

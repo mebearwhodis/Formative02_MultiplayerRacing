@@ -62,7 +62,7 @@ MonoBehaviour:
   _brakeValue: 0
   _itemUsed: 0
   _positionReset: 0
-  _isConfused: 0
+  _invertControls: 0
 --- !u!114 &6462684774723442120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,8 +77,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   springForce: 40000
   springDamper: 3000
-  MaxSpeed: 70
-  Acceleration: 20
+  MaxSpeed: 50
+  Acceleration: 30
   AccelerationCurve:
     serializedVersion: 2
     m_Curve:

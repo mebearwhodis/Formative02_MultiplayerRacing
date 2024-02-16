@@ -1,11 +1,6 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data.SqlTypes;
-using Ashsvp;
-using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
-using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class Interactibles : MonoBehaviour

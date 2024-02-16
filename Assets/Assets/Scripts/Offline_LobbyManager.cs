@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -16,6 +14,12 @@ public class Offline_LobbyManager : MonoBehaviour
     private void Start()
     {
         _spawnPoints = GetComponentsInChildren<SpawnPoints>().ToList();
+        //Tried to destroy the prefabs in "DontDestroyOnLoad" to allow for a quick restart of the game but it didn't work, try something else
+        // List<OfflineLobbyPlayerSetup> _players = FindObjectsByType<OfflineLobbyPlayerSetup>(FindObjectsInactive.Include, FindObjectsSortMode.None).ToList();
+        // for (int i = 0; i < _players.Count; i++)
+        // {
+        //     Destroy(_players[i].transform.parent);
+        // }
     }
 
     public void OnPlayerJoined(PlayerInput input)

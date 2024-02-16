@@ -493,8 +493,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   springForce: 40000
   springDamper: 3000
-  MaxSpeed: 70
-  Acceleration: 20
+  MaxSpeed: 90
+  Acceleration: 25
   AccelerationCurve:
     serializedVersion: 2
     m_Curve:
