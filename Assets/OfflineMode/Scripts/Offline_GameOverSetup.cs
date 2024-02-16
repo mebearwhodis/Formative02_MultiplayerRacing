@@ -22,7 +22,7 @@ public class Offline_GameOverSetup : MonoBehaviour
         
         //Put all players in a list
         List<OfflineLobbyPlayerSetup> _players = FindObjectsByType<OfflineLobbyPlayerSetup>(FindObjectsInactive.Include, FindObjectsSortMode.None).ToList();
-        _players.OrderByDescending(player => player.GetComponent<SetPlayerProfile>().IsFirst).ToList();
+        //_players.OrderByDescending(player => player.GetComponent<SetPlayerProfile>().IsFirst).ToList();
         
         //For each player, instantiate their vehicle
         for (int i = 0; i < _players.Count; i++)

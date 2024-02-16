@@ -1133,7 +1133,7 @@ MonoBehaviour:
   _brakeValue: 0
   _itemUsed: 0
   _positionReset: 0
-  _isConfused: 0
+  _invertControls: 0
 --- !u!114 &2574090040913335600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,6 +1866,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537966840302527767, guid: 56776eeb8ef31ce48a2ec542986a770f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.4361005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537966840302527767, guid: 56776eeb8ef31ce48a2ec542986a770f,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.0446167
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

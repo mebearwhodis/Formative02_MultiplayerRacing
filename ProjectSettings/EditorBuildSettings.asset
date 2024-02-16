@@ -5,21 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Common/Scenes/OnlineMainMenu.unity
-    guid: 3dc0955265940fa47a46dd7f71826db6
-  - enabled: 0
-    path: Assets/Common/Scenes/OnlineLevel.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Common/Scenes/Menu.unity
+    guid: d5b495350b2f0a74da6ec94b95aa48d1
   - enabled: 1
     path: Assets/Common/Scenes/Lobby.unity
     guid: f8d63684f885f3048931c3b5e2b2308e
-  - enabled: 0
-    path: Assets/Common/Scenes/GameTest.unity
-    guid: dd19adfbceecad9489affad6b598fdba
-  - enabled: 0
-    path: Assets/OnlineMode/V2/Scenes/OnlineV2.unity
-    guid: 7ac13af10b06c884c8e6fb0bddfcf9f3
   - enabled: 1
     path: Assets/Common/Scenes/LevelOne.unity
     guid: 6f8eb5995cb006f4db1d2e8d071344e4

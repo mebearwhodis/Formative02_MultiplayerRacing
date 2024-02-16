@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
 using Ashsvp;
-using Steamworks;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.UI;
@@ -44,8 +43,24 @@ public class Interactibles : MonoBehaviour
     [Header("Testing")] 
     [SerializeField] private int _itemHeld = 0;
     [SerializeField] private bool _isImmune = false;
-    
+    [SerializeField] private bool _isConfused = false;
+    [SerializeField] private bool _isStunned = false;
+
     public int ItemHeld => _itemHeld;
+
+    public bool IsImmune => _isImmune;
+
+    public bool IsConfused
+    {
+        get => _isConfused;
+        set => _isConfused = value;
+    }
+
+    public bool IsStunned
+    {
+        get => _isStunned;
+        set => _isStunned = value;
+    }
 
     [Header("Items Tweak")] [SerializeField] private float _immunityDuration = 3f;
     [SerializeField] private float _pushForce = 10000f;
@@ -183,6 +198,8 @@ public class Interactibles : MonoBehaviour
                 {
                     script.enabled = false;
                 }
+
+                vehicle.GetComponentInChildren<Interactibles>().IsStunned = true;
             }
         }
 
@@ -202,6 +219,8 @@ public class Interactibles : MonoBehaviour
                 {
                     script.enabled = true;
                 }
+                
+                vehicle.GetComponentInChildren<Interactibles>().IsStunned = false;
             }
         }
     }
@@ -221,7 +240,8 @@ public class Interactibles : MonoBehaviour
         {
             if (vehicle != _thisVehicle && !vehicle.GetComponentInChildren<Interactibles>()._isImmune)
             {
-                vehicle.GetComponent<VehiclesInputs>()._isConfused = true;
+                vehicle.GetComponent<VehiclesInputs>()._invertControls = true;
+                vehicle.GetComponentInChildren<Interactibles>().IsConfused = true;
             }
         }
 
@@ -236,7 +256,8 @@ public class Interactibles : MonoBehaviour
         {
             if (vehicle != _thisVehicle && !vehicle.GetComponentInChildren<Interactibles>()._isImmune)
             {
-                vehicle.GetComponent<VehiclesInputs>()._isConfused = false;
+                vehicle.GetComponent<VehiclesInputs>()._invertControls = false;
+                vehicle.GetComponentInChildren<Interactibles>().IsConfused = false;
             }
         }
     }

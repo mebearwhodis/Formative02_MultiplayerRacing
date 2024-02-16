@@ -9,6 +9,8 @@ public class ShowInputs : MonoBehaviour
     private SetPlayerProfile _playerProfile;
     [SerializeField] private GameObject _keyboardScheme;
     [SerializeField] private GameObject _controllerScheme;
+    [SerializeField] private GameObject _ButtonY;
+    [SerializeField] private GameObject _ButtonF;
     private bool _showInputs = false;
     private Camera _mainCamera;
     
@@ -16,6 +18,16 @@ public class ShowInputs : MonoBehaviour
     {
         _input = GetComponent<VehiclesInputs>();
         _playerProfile = GetComponent<SetPlayerProfile>();
+        if (_playerProfile.PlayerInput.currentControlScheme == "Keyboard")
+        {
+            _ButtonY.SetActive(false);
+            _ButtonF.SetActive(true);
+        }
+        else if (_playerProfile.PlayerInput.currentControlScheme == "Controller")
+        {
+            _ButtonY.SetActive(true);
+            _ButtonF.SetActive(false);
+        }
     }
 
     void Update()

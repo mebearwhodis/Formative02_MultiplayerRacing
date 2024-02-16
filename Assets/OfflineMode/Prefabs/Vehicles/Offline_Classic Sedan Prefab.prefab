@@ -458,7 +458,7 @@ Transform:
   - {fileID: 8071017975323130743}
   - {fileID: 6356392772846237551}
   - {fileID: 8196826143784840852}
-  - {fileID: 8651210027379936654}
+  - {fileID: 8048863325314663181}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &491538763829772045
@@ -478,7 +478,7 @@ MonoBehaviour:
   _brakeValue: 0
   _itemUsed: 0
   _positionReset: 0
-  _isConfused: 0
+  _invertControls: 0
 --- !u!114 &1859050144612999492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,7 +1708,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.976169, y: 0.9846497, z: 5.2152386}
   m_Center: {x: 0, y: 0.09173563, z: 0}
---- !u!1001 &5631550173431280539
+--- !u!1001 &6456827230841650456
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1721,16 +1721,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemDetector
       objectReference: {fileID: 0}
-    - target: {fileID: 874376216310571539, guid: 56776eeb8ef31ce48a2ec542986a770f,
-        type: 3}
-      propertyPath: _thisVehicle
-      value: 
-      objectReference: {fileID: 3261951542439319779}
-    - target: {fileID: 2425233766137591274, guid: 56776eeb8ef31ce48a2ec542986a770f,
-        type: 3}
-      propertyPath: _thisVehicle
-      value: 
-      objectReference: {fileID: 3261951542439319779}
     - target: {fileID: 3902382978473295381, guid: 56776eeb8ef31ce48a2ec542986a770f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1786,9 +1776,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56776eeb8ef31ce48a2ec542986a770f, type: 3}
---- !u!4 &8651210027379936654 stripped
+--- !u!4 &8048863325314663181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3902382978473295381, guid: 56776eeb8ef31ce48a2ec542986a770f,
     type: 3}
-  m_PrefabInstance: {fileID: 5631550173431280539}
+  m_PrefabInstance: {fileID: 6456827230841650456}
   m_PrefabAsset: {fileID: 0}

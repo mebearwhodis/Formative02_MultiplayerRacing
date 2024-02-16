@@ -60,7 +60,7 @@ public class Checkpoints : MonoBehaviour
                 if (_turnNumber == 2)
                 {
                     //End Game
-                    this._setPlayerProfile.IsFirst = true;
+                    //this._setPlayerProfile.IsFirst = true;
                     SceneManager.LoadScene("GameOver");
                 }
                 else

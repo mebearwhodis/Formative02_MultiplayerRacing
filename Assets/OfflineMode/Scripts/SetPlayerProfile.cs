@@ -19,13 +19,7 @@ public class SetPlayerProfile : MonoBehaviour
     public VehicleProfile Profile => _profile;
 
     public PlayerInput PlayerInput => _playerInput;
-
-    private bool _isFirst = false;
-    public bool IsFirst
-    {
-        get => _isFirst;
-        set => _isFirst = value;
-    }
+    
 
     public void SetProfile(OfflineLobbyPlayerSetup setup)
     {

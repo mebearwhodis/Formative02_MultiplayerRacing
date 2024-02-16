@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3902382978473295381}
   - component: {fileID: 2425233766137591274}
   - component: {fileID: 874376216310571539}
-  - component: {fileID: 2811030894437989318}
+  - component: {fileID: 4537966840302527767}
   m_Layer: 0
   m_Name: ItemDetector
   m_TagString: Untagged
@@ -48,6 +48,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemHeld: 0
   _isImmune: 0
+  _isConfused: 0
+  _isStunned: 0
   _immunityDuration: 5
   _pushForce: 10000
   _shockDuration: 5
@@ -69,8 +71,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canEndTurn: 0
   _thisVehicle: {fileID: 0}
---- !u!136 &2811030894437989318
-CapsuleCollider:
+--- !u!65 &4537966840302527767
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -79,16 +81,14 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 1
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 3.5, z: 0}
+  serializedVersion: 3
+  m_Size: {x: 1.322509, y: 4.3644447, z: 4.3225946}
+  m_Center: {x: 0.03233537, y: 3.4653106, z: 0.107670784}

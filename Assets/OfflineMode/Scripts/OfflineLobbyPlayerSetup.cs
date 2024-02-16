@@ -19,6 +19,7 @@ public class OfflineLobbyPlayerSetup : MonoBehaviour
 
     private int _modelIndex = 0;
     private bool _ready;
+    
 
     public bool Ready => _ready;
     public VehicleProfile Profile => _profiles[_modelIndex];
