@@ -6,59 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e0530042-3a9f-497c-b0b0-177e010560ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Formative02_MultiplayerRacing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Checkpoint.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Checkpoint.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/FinishLine.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/FinishLine.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/ItemBox.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/ItemBox.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/ItemDetector.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Prefabs/ItemDetector.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/MidCheckpoint.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/MidCheckpoint.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Offline_Player_GameOver.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Offline_Player_GameOver.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/SpeedBoost.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/SpeedBoost.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Bus Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Bus Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Classic Sedan Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Classic Sedan Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Formula Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Formula Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Old RR Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Old RR Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Super Car Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Prefabs/Vehicles/Offline_Super Car Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scenes/GameOver.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Checkpoints.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Checkpoints.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Interactibles.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Interactibles.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/ItemIconManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/ItemIconManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/LapCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/LapCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Offline_Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Prefabs/Offline_Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scenes/LevelOne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Movement/VehiclesInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/Movement/VehiclesInputs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/OfflineGameSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/OfflineGameSetup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/OfflineLobbyPlayerSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/OfflineLobbyPlayerSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Offline_GameOverSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/Offline_GameOverSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Offline_LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/Offline_LobbyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/ResetVehicle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/ResetVehicle.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/SetPlayerProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/SetPlayerProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/ShowInputs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/ShowInputs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/SpawnPoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/SpawnPoints.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Speedometer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/Speedometer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/UIMainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/UIMainMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/VehicleProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/VehicleProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/VehiclesInputs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/VehiclesInputs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/AudioSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/AudioSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/GearSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/GearSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/SimcadeVehicleController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/SimcadeVehicleController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/WheelSkid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/Ash Assets/Sim-Cade Vehicle Physics/Scripts/WheelSkid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/kenney_input-prompts/Keyboard &amp; Mouse/Default/keyboard_r_outline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/kenney_input-prompts/Keyboard &amp; Mouse/Default/keyboard_r_outline.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/kenney_input-prompts/Xbox Series/Default/xbox_button_view_outline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ExternalAssetsAndPackages/kenney_input-prompts/Xbox Series/Default/xbox_button_view_outline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Scripts/UI/ShowInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Scripts/UI/ShowInputs.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +157,7 @@
       <workItem from="1708116360346" duration="4000" />
       <workItem from="1708116533918" duration="16000" />
       <workItem from="1708119379547" duration="2436000" />
+      <workItem from="1709997967421" duration="2332000" />
     </task>
     <servers />
   </component>

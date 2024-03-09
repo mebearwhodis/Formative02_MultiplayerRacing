@@ -25,6 +25,7 @@ public class OfflineLobbyPlayerSetup : MonoBehaviour
     public string ControlScheme => _controlScheme;
     public InputDevice[] Devices => _devices;
 
+
     private void Start()
     {
         LoadNewModel();

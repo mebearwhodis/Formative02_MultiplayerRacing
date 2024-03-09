@@ -7761,6 +7761,11 @@ PrefabInstance:
       propertyPath: _countdown
       value: 
       objectReference: {fileID: 1751538271}
+    - target: {fileID: 757352192103916348, guid: 21dcae9276615b743a3026c920825cc7,
+        type: 3}
+      propertyPath: _disconnected
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1478366934202435140, guid: 21dcae9276615b743a3026c920825cc7,
         type: 3}
       propertyPath: m_LocalPosition.x

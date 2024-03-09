@@ -10,13 +10,16 @@ public class SetPlayerProfile : MonoBehaviour
     [SerializeField] private List<LayerMask> _playerLayers;
     [SerializeField] private Speedometer _speedometer;
     [SerializeField] private LapCounter _lapCounter;
+    [SerializeField] private GameObject _disconnectedText;
+    private bool _isPaused = false;
     
     private VehicleProfile _profile;
 
     public VehicleProfile Profile => _profile;
 
     public PlayerInput PlayerInput => _playerInput;
-    
+
+
 
     public void SetProfile(OfflineLobbyPlayerSetup setup)
     {
@@ -47,6 +50,20 @@ public class SetPlayerProfile : MonoBehaviour
         _speedometer.target = _body.GetComponent<Rigidbody>();
         _lapCounter._target = _body;
 
+        
+        _disconnectedText.gameObject.SetActive(false);
+        _playerInput.onDeviceLost += OnDeviceLost;
+        _playerInput.onDeviceRegained += OnDeviceRegained;
+    }
+        
+    private void OnDeviceLost(PlayerInput input)
+    {
+        PauseGame();
+    }
+    
+    private void OnDeviceRegained(PlayerInput input)
+    {
+        UnpauseGame();
     }
 
     public void SetGameOverProfile(OfflineLobbyPlayerSetup setup)
@@ -56,5 +73,25 @@ public class SetPlayerProfile : MonoBehaviour
         //Shapeshifting
         Destroy(_body);
         _body = Instantiate(_profile._prefab, transform);
+    }
+    
+    private void PauseGame()
+    {
+        if (!_isPaused)
+        {
+            _disconnectedText.gameObject.SetActive(true);
+            Time.timeScale = 0f;
+            _isPaused = true;
+        }
+    }
+
+    private void UnpauseGame()
+    {
+        if (_isPaused)
+        {
+            _disconnectedText.gameObject.SetActive(false);
+            Time.timeScale = 1f;
+            _isPaused = false;
+        }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,10 +14,9 @@ public class VehiclesInputs : MonoBehaviour
     public bool _positionReset = false;
 
     public bool _invertControls = false;
-
     
-
-        public void OnAccelerate(InputValue value)
+    
+    public void OnAccelerate(InputValue value)
         {
             _accelerationValue = value.Get<float>();
         }
@@ -40,5 +40,4 @@ public class VehiclesInputs : MonoBehaviour
         {
             _positionReset = value.isPressed;
         }
-    
 }

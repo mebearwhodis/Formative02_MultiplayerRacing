@@ -13,6 +13,7 @@ public class OfflineGameSetup : MonoBehaviour
     private List<SpawnPoints> _spawnPoints;
     [SerializeField] private TextMeshProUGUI _countdown;
     
+    
     private void Start()
     {
         //Put all spawn points in a list

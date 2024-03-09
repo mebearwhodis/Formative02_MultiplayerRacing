@@ -11,6 +11,7 @@ public class ShowInputs : MonoBehaviour
     [SerializeField] private GameObject _ButtonF;
     private bool _showInputs = false;
     private Camera _mainCamera;
+    [SerializeField] private GameObject _disconnectedText;
     
     void Start()
     {
